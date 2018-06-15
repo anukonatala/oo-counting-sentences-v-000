@@ -18,5 +18,6 @@ class String
     split_array = []
     split_array = self.split(/[?.!]+/)
     split_array.reject { |e| e.to_s.empty? }
+    split_array
   end
 end
